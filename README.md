@@ -1,0 +1,2 @@
+# Data-Wrangling
+Most data in the real world hardly come clean and, to bring out meaningful insights from data, the data needs to be clean. To get a data clean, some wrangling processes need  to be carried out. In this project, different wrangling processes would be carried out using Python's Libraries. The project involves querying data from different data sources, cleaning and documenting the processes, then bringing out meaningful insights from them using visualzations.
