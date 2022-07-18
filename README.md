@@ -6,3 +6,8 @@ WeRateDogsis a Twitter account that rates people's dogs with a humorous comments
 In this project, the following datasets would be worked with: 
 1. Enhanced Twitter Archive: 
 The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, though not everything. The archive did contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced."(according to Udacity's instructor). Of the 5000+ tweets, tweets with ratings only have been filtered for (there were 2356).
+
+2. Additional Data via the Twitter API:
+Of the columns omitted in the above dataset, retweet counts and favorite counts were two of the notable columns. These additional data would hence be gathered using Twitter's API.
+
+3. 
