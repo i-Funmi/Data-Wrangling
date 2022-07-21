@@ -8,10 +8,10 @@ In this project, the following datasets would be worked with:
 The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, though not everything. The archive did contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced."(according to Udacity's instructor). Of the 5000+ tweets, tweets with ratings only have been filtered for (there were 2356).
 
 2. Additional Data via the Twitter API:
-Of the columns omitted in the above dataset, retweet counts and favorite counts were two of the notable columns. These additional data would hence be gathered using Twitter's API and the file saved as ``
+Of the columns omitted in the above dataset, retweet counts and favorite counts were two of the notable columns. These additional data would hence be gathered using Twitter's API.
 
 3. Image Prediction File:
-Every image in the WeRateDogs Twitter archive were ran through a neural network that can classify breeds of dogs by Udacity. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images). The file was then saved as `image predictions.tsv`
+Every image in the WeRateDogs Twitter archive were ran through a neural network that can classify breeds of dogs by Udacity. The results: a table full of image predictions (the top three only) alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction (numbered 1 to 4 since tweets can have up to four images).
 The columns in the text files are:
 * tweet_id which was the last part of the tweet URL after "status/" → [https://twitter.com/dog_rates/status/889531135344209921](https://twitter.com/dog_rates/status/889531135344209921)
 * p1 was the algorithm's #1 prediction for the image in the tweet → **golden retriever**
@@ -21,3 +21,5 @@ The columns in the text files are:
 * p2_conf meant how confident the algorithm is in its #2 prediction → **1%**
 * p2_dog meant whether or not the #2 prediction is a breed of dog → **TRUE**
 etc.
+### Section 1: Gathering Data
+In this section, the three pieces of data as mentioned above were gathered.
