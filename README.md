@@ -22,4 +22,6 @@ The columns in the text files are:
 * p2_dog meant whether or not the #2 prediction is a breed of dog → **TRUE**
 etc.
 ### Section 1: Gathering Data
-In this section, the three pieces of data as mentioned above were gathered.
+In this section, the three pieces of data as mentioned above were gathered using different methods. The first file 'twitter_archive_enhanced.csv' was provided at hand and was read into dataframe using `pandas.read_csv`.
+The second file 'image_predictions.tsv' was read from Udacity's server using the `Requests` Library.
+The third file 'tweet_json.txt' was gathered through querying Twitter API with the use of Python's `Tweepy Library`. Each tweet set of JSON (retweet counts and favorite counts) was then read and saved in the file.
