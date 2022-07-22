@@ -25,3 +25,8 @@ etc.
 In this section, the three pieces of data as mentioned above were gathered using different methods. The first file 'twitter_archive_enhanced.csv' was provided at hand and was read into dataframe using `pandas.read_csv`.
 The second file 'image_predictions.tsv' was read from Udacity's server using the `Requests` Library.
 The third file 'tweet_json.txt' was gathered through querying Twitter API with the use of Python's `Tweepy Library`. Each tweet set of JSON (retweet counts and favorite counts) was then read and saved in the file.
+### Section 2: Assessing Data
+After gathering all the three pieces of data, the data were then assessed visually (using Microsoft Excel) and programmatically (using Pandas' functions and methods). Through the assessments, issues detected about the data were dutifully documented, grouping them into quality issues and tidiness issues depending on the rule of clean data violated.
+### Section 3: Cleaning Data
+After assessing the data and documenting the issues, the dataset was then copied before cleaning starts for easy referencing. Then, using the `Define-Code-Test` method, the issues detected were cleaned; where 'Define' means defining the issue detected, 'Code' means writing codes to solve the detected issue and 'Test' means testing to ensure the issue has been solved accordingly.
+The gathering, assessing and cleaning acts were then saved in the `wrangle_act.ipynb` file attached, while the cleaned dataset was also saved('twitter_archive_master.csv') in preparation for analyses and visualizations.
