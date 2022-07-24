@@ -33,3 +33,6 @@ The gathering, assessing and cleaning acts were then saved in the `wrangle_act.i
 ### Section 4: Analyzing and Visualizing Data
 In this section, the final part of the project was carried out- analyzing and visualizing the cleaned data. Here, clear insights were derived from the data and the insights dutifully communicated and explained with the aid of visuals using simple Python's Matplotlib and Seaborn's functions.
 ### Section 5: Reporting
+Here, reports about the wrangling processes were reported, separating the reports into wrangling report entailing summaries of the wrangling processes, and visualization report- entailing insights gotten from the data and visualizations used to communicate the insights. The reports `wrangle_report.html`; wrangling report and `act_report.html`; insights report were attached.
+### Conclusion:
+Wrangling processes- gathering, assessing, cleaning, analyzing and visualizing are processes carried out in order to derive meanings from data. Data gathered in any form can be tweaked to give out meaningful insights through the help of DATA WRANGLING.
