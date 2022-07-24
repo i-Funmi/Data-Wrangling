@@ -30,3 +30,6 @@ After gathering all the three pieces of data, the data were then assessed visual
 ### Section 3: Cleaning Data
 After assessing the data and documenting the issues, the dataset was then copied before cleaning starts for easy referencing. Then, using the `Define-Code-Test` method, the issues detected were cleaned; where 'Define' means defining the issue detected, 'Code' means writing codes to solve the detected issue and 'Test' means testing to ensure the issue has been solved accordingly.
 The gathering, assessing and cleaning acts were then saved in the `wrangle_act.ipynb` file attached, while the cleaned dataset was also saved('twitter_archive_master.csv') in preparation for analyses and visualizations.
+### Section 4: Analyzing and Visualizing Data
+In this section, the final part of the project was carried out- analyzing and visualizing the cleaned data. Here, clear insights were derived from the data and the insights dutifully communicated and explained with the aid of visuals using simple Python's Matplotlib and Seaborn's functions.
+### Section 5: Reporting
